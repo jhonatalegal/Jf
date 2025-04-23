@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acessar Centrais</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #a8e6cf, #38b000);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    h1 {
+      color: #1a4d32; /* Verde escuro */
+      font-size: 40px;
+      font-weight: 700;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      margin: 0;
+      text-align: center;
+    }
+
+    h2 {
+      color: #a8e6cf; /* Verde claro */
+      font-size: 26px;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    button {
+      padding: 15px 40px;
+      font-size: 20px;
+      background-color: #38b000;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+      width: 280px;
+      margin-top: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    button:hover {
+      background-color: #2d8b00;
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    button:active {
+      background-color: #267700;
+      transform: translateY(2px);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      button {
+        font-size: 18px;
+        width: 100%;
+        padding: 12px 20px;
+      }
+    }
+
+    .contact-text {
+      font-size: 20px;
+      color: #1a4d32; /* Verde escuro */
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bem-vindo ao App Agility</h1>
+  <h2>Acesse seus boletos</h2>
+
+  <button onclick="window.location.href='https://central.agilitytelecom.com.br/central_assinante_web/login'">
+    Central Agility Telecom
+  </button>
+
+  <button onclick="window.location.href='https://jfservicee.com.br/central_assinante_web/login'">
+   Central JF Service
+  </button>
+
+  <div class="contact-text">Entre em contato conosco</div>
+  <button onclick="window.location.href='https://wa.me/558182667278'">
+    Frei Miguelinho
+  </button>
+
+  <button onclick="window.location.href='https://wa.me/558187865410'">
+    Ameixas
+  </button>
+
+</body>
+</html>
